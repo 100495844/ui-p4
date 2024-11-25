@@ -19,6 +19,7 @@ const Intro: React.FC = () => {
                     <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                         <RedButton text="¡A la galería!" clicked={'/galeria'}></RedButton>
                         <RedButton text="Regístrarte" clicked={registerPopUp}></RedButton>
+                        <RedButton text="Catálogo de juguetes" clicked='/toycatalogue'></RedButton>
                     </div>
                 </div>
 
